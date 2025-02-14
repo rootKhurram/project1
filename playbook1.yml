@@ -5,5 +5,8 @@
     - name: installing telnet
       yum:
         name: telnet
-        state: present  
+        state: present 
+    - name: PRINT I LOVE LINUX
+      debug:
+        msg: I LOVE LINUX    
 
