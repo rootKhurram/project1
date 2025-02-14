@@ -1,0 +1,9 @@
+---
+- name: installing telnet on all hosts
+  hosts: all
+  tasks: 
+    - name: installing telnet
+      yum:
+        name: telnet
+        state: present  
+
